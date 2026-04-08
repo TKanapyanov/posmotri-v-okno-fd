@@ -30,12 +30,14 @@ html {
 
 .result {
   width: 711px;
+  margin-top: 78px;
 }
 
 .search-form {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 40px;
 }
 
 .content__details {
@@ -53,14 +55,18 @@ html {
   flex-direction: column;
   gap: 30px;
   position: relative;
+  overflow-y: auto;
+  padding-top: 3px;
+  margin-top: 20px;
 }
 
 .result__video-container {
-  margin-bottom: 16px;
   width: 711px;
   height: 386px;
   position: relative;
+  margin-bottom: 16px;
 }
+
 .result__video {
   width: 100%;
   height: 100%;
@@ -71,7 +77,6 @@ html {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  overflow-y: auto;
 }
 
 .content__video-card {
@@ -94,9 +99,8 @@ html {
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;
-  line-height: 100%;
   color: #ffffff;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .title {
@@ -106,7 +110,6 @@ html {
   line-height: 94%;
   letter-spacing: 0;
   text-transform: uppercase;
-  margin-bottom: 26px;
 }
 
 .content__accent {
@@ -114,7 +117,7 @@ html {
 }
 
 .content__list-item {
-  padding: 0 3px;
+  padding: 0 2px;
 }
 
 .content__card-link {
@@ -154,6 +157,7 @@ html {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  margin-bottom: 6px;
 }
 
 .content__video-card-description {
@@ -184,7 +188,7 @@ html {
   display: flex;
   align-items: center;
   width: fit-content;
-  gap: 2px;
+  gap: 5px;
   cursor: pointer;
 }
 
@@ -199,6 +203,7 @@ html {
   border-bottom: 1px solid #ffffffb2;
   border-top: 1px solid #ffffffb2;
   appearance: none;
+  width: 225px;
 }
 
 .search-form__textfield::placeholder {
@@ -247,6 +252,7 @@ html {
   font-size: 18px;
   font-family: "Fira Sans Condensed";
   cursor: pointer;
+  line-height: 1;
 }
 
 .button:active {
@@ -260,10 +266,11 @@ html {
 .search-form__submit-button {
   padding: 6px 73.5px;
   align-self: flex-end;
+  margin-top: 20px;
 }
 
 .more-button {
-    padding: 6px 0;
+  padding: 6px 0;
 }
 
 .button:focus-visible {
